@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\2001b\AppData\Local\Temp\testng-eclipse-900426489\testng-customsuite.xml</span>
+                    <span>C:\Users\2001b\AppData\Local\Temp\testng-eclipse-1737860696\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -103,12 +103,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="tests.Day3SyncTest" class="method navigator-link" hash-for-method="dropdownTest">dropdownTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="tests.Day4WindowTest" class="method navigator-link" hash-for-method="testIFrameTyping">testIFrameTyping</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="tests.Day3SyncTest" class="method navigator-link" hash-for-method="jsAlertTest">jsAlertTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="tests.Day4WindowTest" class="method navigator-link" hash-for-method="testNewWindowSwitch">testNewWindowSwitch</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -126,21 +126,21 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">tests.Day3SyncTest</span>
+              <span class="class-name">tests.Day4WindowTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="dropdownTest">
-                  </a> <!-- dropdownTest -->
-                  <span class="method-name">dropdownTest</span>
+                  <a name="testIFrameTyping">
+                  </a> <!-- testIFrameTyping -->
+                  <span class="method-name">testIFrameTyping</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="jsAlertTest">
-                  </a> <!-- jsAlertTest -->
-                  <span class="method-name">jsAlertTest</span>
+                  <a name="testNewWindowSwitch">
+                  </a> <!-- testNewWindowSwitch -->
+                  <span class="method-name">testNewWindowSwitch</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -148,7 +148,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\2001b\AppData\Local\Temp\testng-eclipse-900426489\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\2001b\AppData\Local\Temp\testng-eclipse-1737860696\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -157,7 +157,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;tests.Day3SyncTest&quot;/&gt;
+      &lt;class name=&quot;tests.Day4WindowTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -199,18 +199,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'dropdownTest')
-data.setCell(0, 2, 'tests.Day3SyncTest')
-data.setCell(0, 3, 23297);
+data.setCell(0, 1, 'testNewWindowSwitch')
+data.setCell(0, 2, 'tests.Day4WindowTest')
+data.setCell(0, 3, 5141);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'jsAlertTest')
-data.setCell(1, 2, 'tests.Day3SyncTest')
-data.setCell(1, 3, 5633);
+data.setCell(1, 1, 'testIFrameTyping')
+data.setCell(1, 2, 'tests.Day4WindowTest')
+data.setCell(1, 3, 4441);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 28 seconds</span>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -236,22 +236,30 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">tests.Day3SyncTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">dropdownTest</span>
+              <div class="chronological-class-name">tests.Day4WindowTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">23313 ms</span>
-              </div> <!-- configuration-method after -->
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">jsAlertTest</span>
-                <span class="method-start">23824 ms</span>
+                <span class="method-name">testNewWindowSwitch</span>
+                <span class="method-start">3055 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">29457 ms</span>
+                <span class="method-start">8208 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">8730 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testIFrameTyping</span>
+                <span class="method-start">10212 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14653 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
