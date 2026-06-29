@@ -1,37 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-25T22:37:20 IST" name="Default suite" finished-at="2026-06-25T22:37:35 IST" duration-ms="15038">
+  <suite started-at="2026-06-29T19:14:44 IST" name="Default suite" finished-at="2026-06-29T19:15:11 IST" duration-ms="26977">
     <groups>
     </groups>
-    <test started-at="2026-06-25T22:37:20 IST" name="Default test" finished-at="2026-06-25T22:37:35 IST" duration-ms="15038">
-      <class name="tests.Day4WindowTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.Day4WindowTest@543295b0]" started-at="2026-06-25T22:37:20 IST" name="setUp" finished-at="2026-06-25T22:37:23 IST" duration-ms="3053" status="PASS">
+    <test started-at="2026-06-29T19:14:44 IST" name="Default test" finished-at="2026-06-29T19:15:11 IST" duration-ms="26977">
+      <class name="tests.Day6_ActionsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.Day6_ActionsTest@117159c0]" started-at="2026-06-29T19:14:44 IST" name="setUp" finished-at="2026-06-29T19:14:48 IST" duration-ms="3503" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testNewWindowSwitch()[pri:1, instance:tests.Day4WindowTest@543295b0]" started-at="2026-06-25T22:37:23 IST" name="testNewWindowSwitch" finished-at="2026-06-25T22:37:28 IST" duration-ms="5141" status="PASS">
+        <test-method signature="testDragAndDrop()[pri:0, instance:tests.Day6_ActionsTest@117159c0]" started-at="2026-06-29T19:14:48 IST" name="testDragAndDrop" finished-at="2026-06-29T19:14:52 IST" duration-ms="4778" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testNewWindowSwitch -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Day4WindowTest@543295b0]" started-at="2026-06-25T22:37:28 IST" name="tearDown" finished-at="2026-06-25T22:37:29 IST" duration-ms="518" status="PASS">
+        </test-method> <!-- testDragAndDrop -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Day6_ActionsTest@117159c0]" started-at="2026-06-29T19:14:52 IST" name="tearDown" finished-at="2026-06-29T19:14:53 IST" duration-ms="341" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.Day4WindowTest@543295b0]" started-at="2026-06-25T22:37:29 IST" name="setUp" finished-at="2026-06-25T22:37:30 IST" duration-ms="1481" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.Day6_ActionsTest@117159c0]" started-at="2026-06-29T19:14:53 IST" name="setUp" finished-at="2026-06-29T19:14:54 IST" duration-ms="1347" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testIFrameTyping()[pri:2, instance:tests.Day4WindowTest@543295b0]" started-at="2026-06-25T22:37:30 IST" name="testIFrameTyping" finished-at="2026-06-25T22:37:35 IST" duration-ms="4441" status="PASS">
+        <test-method signature="testJSExecutorScrollAndClick()[pri:0, instance:tests.Day6_ActionsTest@117159c0]" started-at="2026-06-29T19:14:54 IST" name="testJSExecutorScrollAndClick" finished-at="2026-06-29T19:14:59 IST" duration-ms="5080" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testIFrameTyping -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Day4WindowTest@543295b0]" started-at="2026-06-25T22:37:35 IST" name="tearDown" finished-at="2026-06-25T22:37:35 IST" duration-ms="292" status="PASS">
+        </test-method> <!-- testJSExecutorScrollAndClick -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Day6_ActionsTest@117159c0]" started-at="2026-06-29T19:14:59 IST" name="tearDown" finished-at="2026-06-29T19:15:00 IST" duration-ms="363" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.Day4WindowTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.Day6_ActionsTest@117159c0]" started-at="2026-06-29T19:15:00 IST" name="setUp" finished-at="2026-06-29T19:15:01 IST" duration-ms="1300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMouseHover()[pri:0, instance:tests.Day6_ActionsTest@117159c0]" started-at="2026-06-29T19:15:01 IST" name="testMouseHover" finished-at="2026-06-29T19:15:04 IST" duration-ms="3580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMouseHover -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Day6_ActionsTest@117159c0]" started-at="2026-06-29T19:15:04 IST" name="tearDown" finished-at="2026-06-29T19:15:05 IST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.Day6_ActionsTest@117159c0]" started-at="2026-06-29T19:15:05 IST" name="setUp" finished-at="2026-06-29T19:15:06 IST" duration-ms="1264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRightClickAndDoubleClick()[pri:0, instance:tests.Day6_ActionsTest@117159c0]" started-at="2026-06-29T19:15:06 IST" name="testRightClickAndDoubleClick" finished-at="2026-06-29T19:15:11 IST" duration-ms="4654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRightClickAndDoubleClick -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Day6_ActionsTest@117159c0]" started-at="2026-06-29T19:15:11 IST" name="tearDown" finished-at="2026-06-29T19:15:11 IST" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Day6_ActionsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

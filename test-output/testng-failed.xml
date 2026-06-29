@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.Day4WindowTest">
+      <class name="tests.Day6_ActionsTest">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="testIFrameTyping"/>
+          <include name="testJSExecutorScrollAndClick"/>
         </methods>
-      </class> <!-- tests.Day4WindowTest -->
+      </class> <!-- tests.Day6_ActionsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
