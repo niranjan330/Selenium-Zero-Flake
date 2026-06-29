@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.Day7_FileHandlingTest">
+      <class name="tests.Day8_AlertIFrameTest">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="testFileUpload"/>
-          <include name="testFileDownload"/>
+          <include name="testNestedIFrames"/>
         </methods>
-      </class> <!-- tests.Day7_FileHandlingTest -->
+      </class> <!-- tests.Day8_AlertIFrameTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
